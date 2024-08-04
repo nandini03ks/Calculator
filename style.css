@@ -1,0 +1,31 @@
+table,th,td{
+    border-collapse: collapse;
+}
+
+.cal{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+th{
+    height: 50px;
+    width: 180px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 10px blue;
+}
+th:active{
+    transform: scale(0.9);
+}
+td{
+    text-align: center;
+}
+input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background: transparent;
+}
+.tab{
+    margin: 10px auto;
+}
